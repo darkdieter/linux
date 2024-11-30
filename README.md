@@ -2,7 +2,7 @@
 
 generate csr for webserver 
 ```shell
-openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr
+openssl req -new -newkey rsa:4096 -nodes -keyout server.key -out server.csr
 ```
 convert p7b to pem format
 ```shell
